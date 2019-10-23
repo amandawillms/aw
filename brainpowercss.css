@@ -20,21 +20,37 @@ html,body{
     height: 100%;
     text-align: center;
     font-family: 'Indie Flower', cursive;
-    font-size:20px;
+    font-size: 25px;
     padding-left:5px;
 
 }
 
+.megabox{
+    background-color: lightyellow;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 25px;
+}
+
 .boxed{
-    border-style: 1px lightsalmon;
-}
-
-.babybox{
 
 }
 
-.class{
+.babybox p{
+    background-color: lightsalmon;
+    display: block;
+    border-radius: 25px;
+    width: 200px;
+    margin: 20px auto;
+}
 
+.back p{
+    background-color: blue;
+    display: block;
+    border-radius: 25px;
+    width: 200px;
+    margin: auto;
+    color: white;
 }
 
 /* class is a ., id is a #*/
